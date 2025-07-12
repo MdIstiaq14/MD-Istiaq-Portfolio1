@@ -40,6 +40,8 @@ nav{
     border: none;
     border-radius: 10px;
     padding: 12px 36px ;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 .btn-font{
     font-size: 16px;
@@ -61,6 +63,8 @@ nav{
     border-radius: 10px;
     padding: 12px 36px ;
     margin-bottom: 152px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 div{
     text-align: center;
@@ -116,18 +120,19 @@ main{
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    padding: 50px 0 40px 0;
+    padding-top: 24px;
 }
 .item-title{
     font-size: 80px;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 .item-description{
     font-size: 20px;
     color: #00000067;
     margin-top:0px;
     margin-bottom: 40px;
-    padding: 0px;
 }
 .user-items{
     display: flex;
@@ -186,6 +191,8 @@ input{
     width: 497px;
     height:62px;
     margin-top: 19px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 textarea{
     border: none;
@@ -222,4 +229,51 @@ textarea{
    margin-right: 520px;
    padding-bottom: 103px;
    padding-top: 0px;
+}
+/* User Feedback Section */
+.user-card{
+    background-color: #ffffffb8;
+    height: 243px;
+    width: 366.7px;
+    border-radius: 14px;
+    margin-left: 24px;
+}
+.titleu{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-name{
+    color: #8987A1;
+    font-size: 14px;
+    margin-left:15px;
+    text-align: left;
+}
+.review-section{
+    display: flex;
+    margin-left: 24px;
+    padding-bottom: 24px;
+}
+.reviewer{
+    height: 50px;
+    width: 50px;
+        border-radius:50%;
+}
+.icon-images{
+    padding-top: 24px; 
+}
+.user-feedback-section{
+    display: flex;
+}
+/* Hover effect in all button */
+.btn:hover{
+    background-color:blueviolet;
+    transform: scale(1.05);
+}
+.stay-focused:hover{
+     background-color:blueviolet;
+    transform: scale(1.05);
+}
+.get-btn:hover{
+    background-color:blueviolet;
+    transform: scale(1.05);
 }
