@@ -1,3 +1,7 @@
+/* body color */
+body{
+    background-color:#4d47ff2a;
+}
 /* Raleway font download */
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -131,4 +135,64 @@ main{
     margin-left: 142px;
     margin-right: 142px;
     margin-top: 40px;
+}
+/* Lets get in touch section */
+.lets-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lets-title{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center left;
+}
+/* Form section */
+form{
+    width: 300px;
+    margin: 20px auto;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 19px;
+    text-align: left;
+}
+.form-section{
+    margin-top: 141px;
+    margin-left: 150px;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+input{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 497px;
+    height: 70px;
+    text-align: center;
+   border: none;
+}
+   
+.get-btn{
+    font-size: 16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    width: 497px;
+    height:62px;
+    margin-top: 19px;
+}
+textarea{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+   width: 497px;
+   height: 135px;
+    background-color: #FFFFFF;
+    font-size: 20px;
 }
