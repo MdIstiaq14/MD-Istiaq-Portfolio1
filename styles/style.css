@@ -196,3 +196,30 @@ textarea{
     background-color: #FFFFFF;
     font-size: 20px;
 }
+/* Footer section */
+
+.website-name{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    padding-top: 104px;
+}
+.subtitlef{
+    color: #8987A1;
+    font-size: 20px;
+}
+.f-section{
+        background-color: #FFFFFF;
+        text-align: center;
+        margin-top: 104px;
+}
+.f-items{
+    color: #8987A1;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+   margin-left: 520px;
+   margin-right: 520px;
+   padding-bottom: 103px;
+   padding-top: 0px;
+}
