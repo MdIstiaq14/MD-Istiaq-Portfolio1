@@ -98,3 +98,37 @@ header{
     font-size: 16px;
     font-weight: bold;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Productive user section */
+.productive-user{
+    background-color: #4d47ff49;   
+    border-radius: 24px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0 40px 0;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+.item-description{
+    font-size: 20px;
+    color: #00000067;
+    margin-top:0px;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+.user-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 40px;
+}
